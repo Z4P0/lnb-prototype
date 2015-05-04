@@ -11,16 +11,8 @@ html(lang="en").no-js
     a(href="#main").visuallyhidden Skip to main content
     .off-canvas-wrap(data-offcanvas)
       .inner-wrap
-        .right-off-canvas-menu
-          ul
-            li
-              a(href="#") Item 1
-            li
-              a(href="#") Item 1
-            li
-              a(href="#") Item 1
-            li
-              a(href="#") Item 1
+
+        include _off-canvas.jade
 
         .container
           header.header
@@ -77,9 +69,5 @@ html(lang="en").no-js
             .row
               .columns
                 p Copyright
-
-
-        a.exit-off-canvas
-
 
     include _scripts.jade
