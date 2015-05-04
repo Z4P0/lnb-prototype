@@ -9,19 +9,45 @@ html(lang="en").no-js
 
   body#index
     a(href="#main").visuallyhidden Skip to main content
-    .container
-      header.header
-        .row
-          .columns
-            h1 m o n t e
-      main#main
-        .row
-          .columns
-            p spanish for mountain
+    .off-canvas-wrap(data-offcanvas)
+      .inner-wrap
+        .right-off-canvas-menu
+          ul
+            li
+              a(href="#") Item 1
+            li
+              a(href="#") Item 1
+            li
+              a(href="#") Item 1
+            li
+              a(href="#") Item 1
+            li
+              a(href="#") Item 1
+            li
+              a(href="#") Item 1
+            li
+              a(href="#") Item 1
+            li
+              a(href="#") Item 1
+            li
+              a(href="#") Item 1
 
-      footer.footer
-        .row
-          .columns
-            p &phi;
+        .container
+          header.header
+            .row
+              .columns
+                a(href="#").right-off-canvas-toggle.right  Menu
+          main.main#main
+            .row
+              .columns
+                p Set in the year 0 F.E. ("Foundation Era"), The Psychohistorians opens on Trantor, the capital of the 12,000-year-old Galactic Empire. Though the empire appears stable and powerful, it is slowly decaying in ways that parallel the decline of the Western Roman Empire. Hari Seldon, a mathematician and psychologist, has developed psychohistory, a new field of science and psychology that equates all possibilities in large societies to mathematics, allowing for the prediction of future events.
+          footer.footer
+            .row
+              .columns
+                p Copyright
+
+
+        a.exit-off-canvas
+
 
     include _scripts.jade

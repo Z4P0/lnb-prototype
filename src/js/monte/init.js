@@ -1,12 +1,15 @@
 (function (window, document, undefined) {
     'use strict';
 
-    window.mtn = {
+    window.lnb = {
         init: function() {
             console.log('hello from: main.js');
         }
     };
 
-    window.onload = mtn.init;
+    $(document).ready(function () {
+        $(document).foundation();
+        lnb.init();
+    });
 
 }(window, window.document));
