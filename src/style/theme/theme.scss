@@ -1,25 +1,21 @@
-@import "base";
-@import "typography";
+@import "core/core";
+@import "foundation";
 
 
 $color-1: #ece9df;
 
-
-// .off-canvas-wrap,
-// .inner-wrap {
-//     height: 100%;
-// }
+.footer {
+    text-align: center;
+}
 
 .page-section {
     padding-top: rem-calc(40);
     padding-bottom: rem-calc(40);
 }
+
 .right-off-canvas-toggle {
-    line-height: rem-calc(75);
-}
-
-
-.header {
+    margin-bottom: 0;
+    margin-top: 5%;
 }
 
 .logo-and-menu {
@@ -83,12 +79,12 @@ $color-1: #ece9df;
 
 
 .page-overview {
-    .content {
-        background-color: #b20738;
-    }
     text-align: center;
     color: $white;
-    margin-bottom: $column-gutter*2;
+    .content {
+        background-color: $red;
+        position: relative;
+    }
 }
     .pre-title,
     .overview-title {
@@ -104,3 +100,95 @@ $color-1: #ece9df;
     }
 
 
+.yellow-bg {
+    background-color: $yellow;
+}
+
+.homepage-overview-blocks {
+    li {
+        padding-bottom: 0;
+    }
+}
+
+.overview-block {
+    background-color: $white;
+    padding: rem-calc(10);
+    .button {
+        font-size: rem-calc(15);
+        margin-top: $column-gutter;
+        margin-bottom: 0;
+        background-color: $gold;
+        width: 100%;
+        padding-top: rem-calc(10);
+        padding-bottom: rem-calc(10);
+    }
+}
+
+.image-text-link {
+    display: block;
+    figure  {
+        background-color: $red;
+        margin-bottom: $column-gutter*0.5;
+        > img {
+            display: block;
+        }
+    }
+    figcaption {
+        text-align: center;
+        text-transform: uppercase;
+        position: relative;
+        img {
+            position: absolute;
+            left: 42.5%;
+            bottom: 70%;
+        }
+        h3 {
+            color: $white;
+            font-size: rem-calc(24);
+            margin: 0;
+            padding: rem-calc(20) 0;
+        }
+    }
+}
+
+
+.community-focus {
+    padding: $column-gutter*2 $column-gutter $column-gutter;
+    border: 1px solid $red;
+    position: relative;
+    margin: rem-calc(40) 0;
+    @include mq(netbook) {
+        padding: $column-gutter*3 $column-gutter*2 $column-gutter;
+    }
+}
+.title-3 {
+    color: $gold;
+    text-transform: uppercase;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.community-focus-hgroup {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 95%;
+    h2 {
+        // font-size: rem-calc(24);
+        display: inline-block;
+        text-transform: uppercase;
+        color :$red;
+        background-color: $white;
+        padding: 0 $column-gutter*2;
+        margin: 0;
+    }
+}
+
+.title-4 {
+    margin: 0;
+    text-align: center;
+    span {
+        position: relative;
+    }
+}

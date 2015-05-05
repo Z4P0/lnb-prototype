@@ -1,0 +1,8 @@
+// ZURB Foundation overrides + additions
+.button {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    img {
+        margin-left: $column-gutter*0.5;
+    }
+}

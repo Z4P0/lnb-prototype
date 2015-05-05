@@ -3,8 +3,8 @@ html(lang="en").no-js
   head
     meta(charset="utf-8")
     meta(http-equiv="X-UA-Compatible", content="IE=edge,chrome=1")
-    title m o n t e
-    meta(name="description", content="m o n t e")
+    title LNB Banking
+    meta(name="description", content="LNB Banking")
     include _head.jade
 
   body#index
@@ -15,13 +15,16 @@ html(lang="en").no-js
           header.header
             .row
               .columns
+
                 .logo-and-menu.row
-                  .columns.medium-6
+                  .columns.medium-5.medium-offset-1
                     h1.h1
                       span.visuallyhidden LNB Banking
                       img(src="images/lnb-logo.png", alt="")
-                  .columns.medium-6
-                    a(href="#").right-off-canvas-toggle.right  Bank Now &equiv;
+                  .columns.medium-5.medium-pull-1
+                    a(href="#").right-off-canvas-toggle.right.button Bank Now &equiv;
+                      //- span &equiv;
+
                 nav.nav.row(role="navigation")
                   h2.visuallyhidden Main Menu
                   ul.small-block-grid-1.medium-block-grid-5
@@ -57,28 +60,84 @@ html(lang="en").no-js
                       .row
                         .columns.medium-8.medium-centered
                           p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam qui quisquam maxime recusandae quod ducimus? Eos quaerat id sunt eius quam sint suscipit iste illo doloribus aliquid. Omnis, et itaque.
-
+                      a(href="#").button Learn More
+                        img(src="images/icons/arrow.png", alt="")
             .page-content
-              .row
-                .columns
-                  ul.small-block-grid-1.medium-block-grid-3
-                    li
-                      img(src="http://placehold.it/500x250", alt="")
-                      h3 Some words and things
-                      p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque recusandae, laboriosam nam quis culpa blanditiis quia ipsam porro explicabo obcaecati, molestiae, ab magni! Necessitatibus, deleniti tempore aspernatur non reiciendis doloribus!
-                    li
-                      img(src="http://placehold.it/500x250", alt="")
-                      h3 Some words and things
-                      p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia libero natus, necessitatibus eligendi rerum pariatur voluptatem repellat ullam maxime laudantium magnam, animi et quos exercitationem accusamus officiis alias nostrum, dicta.
-                    li
-                      img(src="http://placehold.it/500x250", alt="")
-                      h3 Some words and things
-                      p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit quibusdam aspernatur quod ut asperiores. Nemo minima aut repellendus repudiandae cupiditate. Incidunt laborum nihil delectus, suscipit enim, expedita nemo rem minus!
+              .page-section.yellow-bg
+                .row
+                  .columns
+                    ul.homepage-overview-blocks.small-block-grid-1.medium-block-grid-3
+                      li
+                        .overview-block
+                          a(href="#").image-text-link
+                            figure
+                              img(src="http://placehold.it/500x250", alt="")
+                              figcaption
+                                img(src="images/icons/diamond-arrow.png", alt="")
+                                h3 Personal Banking
+                          p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                          ul
+                            li Lorem ipsum dolor sit amet .
+                            li Consectetur adipisicing elit.
+                            li Necessitatibus maxim distinctio laborum.
+                          a(href="#").button View More Details
+                            img(src="images/icons/diamond-arrow.png", alt="")
+                      li
+                        .overview-block
+                          a(href="#").image-text-link
+                            figure
+                              img(src="http://placehold.it/500x250", alt="")
+                              figcaption
+                                img(src="images/icons/diamond-arrow.png", alt="")
+                                h3 Business Banking
+                          p Officia libero natus, necessitatibus eligendi rerum pariatur.
+                          ul
+                            li Lorem ipsum dolor sit amet .
+                            li Consectetur adipisicing elit.
+                            li Necessitatibus maxim distinctio laborum.
+                          a(href="#").button View More Details
+                            img(src="images/icons/diamond-arrow.png", alt="")
+                      li
+                        .overview-block
+                          a(href="#").image-text-link
+                            figure
+                              img(src="http://placehold.it/500x250", alt="")
+                              figcaption
+                                img(src="images/icons/diamond-arrow.png", alt="")
+                                h3 Financial Services
+                          p Velit quibusdam aspernatur quod ut asperiores now we have found life in a bubble.
+                          ul
+                            li Lorem ipsum dolor sit amet .
+                            li Consectetur adipisicing elit.
+                            li Necessitatibus maxim distinctio laborum.
+                          a(href="#").button View More Details
+                            img(src="images/icons/diamond-arrow.png", alt="")
+              .page-section
+                .row
+                  .columns.medium-11.medium-centered
+                    .community-focus
+                      .community-focus-hgroup
+                        h2 Community Focus
+                      .content.row
+                        .columns.medium-6
+                          img(src="http://placehold.it/500x250", alt="")
+                        .columns.medium-6
+                          h3.title-3 Community Focused Article
+                          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel veniam delectus sequi, molestias non, odio aliquam nesciunt odit nulla assumenda a ea soluta nemo cum quidem ducimus, in natus maxime.
+                          p Vero, maxime dicta minus! Aliquam nam, eos autem id, ducimus quis labore similique debitis pariatur totam dicta omnis voluptates velit, animi quisquam.
+                          a(href="#").button Learn more
+                            img(src="images/icons/arrow.png", alt="")
+
+              //- .page-section.yellow-bg
+                .row
+                  .columns
+                    h2.title-4
+                      span News &amp; Updates From LNB
 
           footer.footer
             .row
               .columns
-                p Copyright
+                p Copyright 2015 Archer Communications
 
         include _off-canvas.jade
 

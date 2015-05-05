@@ -1,7 +1,10 @@
-$white: #fafafa;
-$black: #2f2f2f;
-$grey: #ccc;
-$red: #b92d19;
+$white      : #fafafa;
+$black      : #2f2f2f;
+$grey       : #cccccc;
+$red        : #b20738;
+$dark-red   : #8d0730;
+$yellow     : #f6f1e2;
+$gold       : #d59f0f;
 
 $white       : #FFFFFF;
 $ghost       : #FAFAFA;
@@ -466,12 +469,12 @@ $header-font-family: $font-family-serif;
 // $button-margin-bottom: rem-calc(20);
 
 // We use these to control button text styles.
-// $button-font-family: $body-font-family;
+$button-font-family: $font-family-serif; // $body-font-family;
 // $button-font-color: $white;
 // $button-font-color-alt: $oil;
-// $button-font-tny: rem-calc(11);
-// $button-font-sml: rem-calc(13);
-// $button-font-med: rem-calc(16);
+$button-font-tny: rem-calc(10);
+$button-font-sml: rem-calc(11);
+$button-font-med: rem-calc(12);
 // $button-font-lrg: rem-calc(20);
 // $button-font-weight: $font-weight-normal;
 // $button-font-align: center;
@@ -482,7 +485,7 @@ $header-font-family: $font-family-serif;
 // We use these to control button border styles.
 // $button-border-width: 0;
 // $button-border-style: solid;
-// $button-bg-color: $primary-color;
+$button-bg-color: $dark-red;
 // $button-bg-hover: scale-color($button-bg-color, $lightness: $button-function-factor);
 // $button-border-color: $button-bg-hover;
 // $secondary-button-bg-hover: scale-color($secondary-color, $lightness: $button-function-factor);
