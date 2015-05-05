@@ -1,0 +1,106 @@
+@import "base";
+@import "typography";
+
+
+$color-1: #ece9df;
+
+
+// .off-canvas-wrap,
+// .inner-wrap {
+//     height: 100%;
+// }
+
+.page-section {
+    padding-top: rem-calc(40);
+    padding-bottom: rem-calc(40);
+}
+.right-off-canvas-toggle {
+    line-height: rem-calc(75);
+}
+
+
+.header {
+}
+
+.logo-and-menu {
+    padding: $column-gutter*0.5 0;
+}
+
+
+    .nav {
+        background-color: #ece9df;
+        text-align: center;
+        li {
+            padding-bottom: 0;
+            line-height: rem-calc(50);
+        }
+        a {
+            font-family: $bree-serif;
+            font-size: rem-calc(17);
+            color: #b20738;
+            text-transform: uppercase;
+        }
+    }
+
+
+.slide {
+    position: relative;
+    .text {
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        color: $white;
+        a {
+            display: block;
+            color: $white;
+            text-transform: uppercase;
+            font-size: rem-calc(15);
+            font-weight: bold;
+            img {
+                margin-left: $column-gutter*0.5;
+            }
+        }
+        @include mq(netbook) {
+            padding-top: 15%;
+        }
+    }
+}
+
+
+.title-1 {
+    font-family: $bree-serif;
+    color: $white;
+    display: block;
+    font-size: rem-calc(75);
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+
+
+
+.page-overview {
+    .content {
+        background-color: #b20738;
+    }
+    text-align: center;
+    color: $white;
+    margin-bottom: $column-gutter*2;
+}
+    .pre-title,
+    .overview-title {
+        color: $white;
+        text-transform: uppercase;
+    }
+    .pre-title {
+        display: block;
+    }
+    .overview-title {
+        margin-bottom: $column-gutter*0.5;
+
+    }
+
+

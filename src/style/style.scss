@@ -7,35 +7,4 @@
 @import "vendor/normalize";
 @import "vendor/foundation";
 // custom
-@import "theme/base";
-@import "theme/typography";
-
-
-// .off-canvas-wrap,
-// .inner-wrap {
-//     height: 100%;
-// }
-
-.page-section {
-    padding-top: rem-calc(40);
-    padding-bottom: rem-calc(40);
-}
-.right-off-canvas-toggle {
-    line-height: rem-calc(75);
-}
-
-.nav {
-    background-color: #ccc;
-    text-align: center;
-    li {
-        padding-bottom: 0;
-        line-height: rem-calc(50);
-    }
-}
-
-.page-overview {
-    .columns {
-        background-color: #ccc;
-    }
-    text-align: center;
-}
+@import "theme/theme";
