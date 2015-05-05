@@ -1,0 +1,77 @@
+.off-canvas {
+    padding-top: $column-gutter;
+}
+
+.off-canvas-header {
+    margin-bottom: $column-gutter *0.5;
+    h1 {
+        line-height: 1;
+    }
+}
+.off-canvas-section {
+    padding-top: rem-calc(15);
+    padding-bottom: rem-calc(15);
+}
+
+.offcanvas-title {
+    font-size: rem-calc(24);
+    margin-top: 0;
+    margin-bottom: rem-calc(8);
+}
+
+.banking-portals-list {
+    list-style: none;
+    margin-bottom: 0;
+    li + li {
+        margin-top: $column-gutter*0.35;
+    }
+    a {
+        display: block;
+        background-color: $red;
+        color: $white;
+        padding: $column-gutter*0.25 $column-gutter*0.5;
+        border-radius:  15px;
+    }
+}
+
+
+.off-canvas-search {
+    .button {
+        letter-spacing: 1px;
+    }
+}
+
+.off-canvas-recent-news-container {
+    border: 1px solid $red;
+    padding: $column-gutter*0.5;
+    .offcanvas-title {
+        font-size: rem-calc(24);
+        text-align: center;
+    }
+}
+
+.off-canvas-article-preview {
+    h4 {
+        font-size: rem-calc(16);
+    }
+    p {
+        margin-bottom: 0;
+        line-height: 1;
+    }
+}
+
+.date {
+    text-align: center;
+    .day,
+    .month {
+        display: block;
+    }
+    .month {
+        text-transform: uppercase;
+        border-bottom: 1px solid;
+        margin: 0 10px;
+    }
+    .day {
+        font-size: rem-calc(16);
+    }
+}

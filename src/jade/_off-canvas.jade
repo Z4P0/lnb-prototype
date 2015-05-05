@@ -1,37 +1,43 @@
-.right-off-canvas-menu
+.right-off-canvas-menu.off-canvas
   .row
     .columns.small-11.small-centered
       header.off-canvas-header
         h1 LNB Bank Now
 
       .off-canvas-section
-        h3 Banking Portals
-          ul
-            li
-              a(href="#") Online Banking
-            li
-              a(href="#") Remote Deposit
-            li
-              a(href="#") Special Ofser &amp; Advantages
+        h3.offcanvas-title Banking Portals
+        ul.banking-portals-list
+          li
+            a(href="#") Online Banking
+          li
+            a(href="#") Remote Deposit
+          li
+            a(href="#") Special Offers &amp; Advantages
 
       .off-canvas-section
-        h3 Search
-        input(type="text", placeholder="How can we help?")
+        h3.offcanvas-title Search
+        .off-canvas-search.row.collapse.postfix-round
+          .columns.small-8
+            input(type="text", placeholder="How can we help?")
+          .columns.small-4
+            a(href="#").button.postfix Search
 
       .off-canvas-section
-        .recent-news-container
-          h3 Recent News
-          article.article-preview
-            strong.date
-              span.month May
-              span.day 18
-            h4 Article Title about things
-            p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        .off-canvas-recent-news-container
+          h3.offcanvas-title Recent News
+          article.off-canvas-article-preview
+            .row.collapse
+              .columns.small-3
+                .date
+                  span.month May
+                  span.day 18
+              .columns.small-8
+                h4 Article Title about things
+                p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 
       .off-canvas-section
-        h3 Have a Question?
-        p Cumque doloremque cupiditate magni voluptates illo dolor natus.
-
+        h3.offcanvas-title Have a Question?
+        p Give us a call or visit one of our branches Monday - Friday
         ul
           li
             a(href="#") View all Locations
@@ -39,6 +45,5 @@
             a(href="#") Email Us
           li
             a(href="#") Mobile Access
-
 
 a.exit-off-canvas
