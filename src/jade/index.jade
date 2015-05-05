@@ -12,8 +12,6 @@ html(lang="en").no-js
     .off-canvas-wrap(data-offcanvas)
       .inner-wrap
 
-        include _off-canvas.jade
-
         .container
           header.header
             .row
@@ -25,8 +23,9 @@ html(lang="en").no-js
                       //- span.visuallyhidden LNB Banking
                       //- img(src="", alt="")
                   .columns.medium-6
-                    a(href="#").right-off-canvas-toggle.right  Menu
-                nav.nav.row
+                    a(href="#").right-off-canvas-toggle.right  Bank Now &equiv;
+                nav.nav.row(role="navigation")
+                  h2.visuallyhidden Main Menu
                   ul.small-block-grid-1.medium-block-grid-5
                     li
                       a(href="#") Menu Item
@@ -69,5 +68,7 @@ html(lang="en").no-js
             .row
               .columns
                 p Copyright
+
+        include _off-canvas.jade
 
     include _scripts.jade

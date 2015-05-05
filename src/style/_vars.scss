@@ -3,6 +3,27 @@ $black: #2f2f2f;
 $grey: #ccc;
 $red: #b92d19;
 
+$white       : #FFFFFF;
+$ghost       : #FAFAFA;
+$snow        : #F9F9F9;
+$vapor       : #F6F6F6;
+$white-smoke : #F5F5F5;
+$silver      : #EFEFEF;
+$smoke       : #EEEEEE;
+$gainsboro   : #DDDDDD;
+$iron        : #CCCCCC;
+$base        : #AAAAAA;
+$aluminum    : #999999;
+$jumbo       : #888888;
+$monsoon     : #777777;
+$steel       : #666666;
+$charcoal    : #555555;
+$tuatara     : #444444;
+$oil         : #333333;
+$jet         : #222222;
+$black       : #000000;
+
+
 $font-family: "Helvetica Neue", Verdana, Arial, sans-serif;
 $line-height: 1.4;
 
@@ -824,7 +845,6 @@ $include-html-global-classes: $include-html-classes;
 
 // 18. Off-canvas
 // - - - - - - - - - - - - - - - - - - - - - - - - -
-
 // Off Canvas Tab Bar Variables
 // $include-html-off-canvas-classes: $include-html-classes;
 
@@ -847,8 +867,8 @@ $include-html-global-classes: $include-html-classes;
 // $tabbar-header-margin: 0;
 
 // Off Canvas Menu Variables
-// $off-canvas-width: rem-calc(250);
-// $off-canvas-bg: $oil;
+$off-canvas-width: rem-calc(290);
+$off-canvas-bg: $vapor;
 
 // Off Canvas Menu List Variables
 // $off-canvas-label-padding: 0.3rem rem-calc(15);
@@ -888,7 +908,7 @@ $include-html-global-classes: $include-html-classes;
 // Off Canvas Back-Link Overlay
 // $off-canvas-overlay-transition: background 300ms ease;
 // $off-canvas-overlay-cursor: pointer;
-// $off-canvas-overlay-box-shadow: -4px 0 4px rgba($black, 0.5), 4px 0 4px rgba($black, 0.5);
+$off-canvas-overlay-box-shadow: none;
 // $off-canvas-overlay-background: rgba($white, 0.2);
 // $off-canvas-overlay-background-hover: rgba($white, 0.05);
 
