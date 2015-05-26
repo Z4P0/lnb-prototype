@@ -17,35 +17,82 @@ html(lang="en").no-js
           main.main#main
             header.page-header
               .row
-                .homepage-slider-container
-                  .slide
-                    img(src="images/homepage-content-header-1.jpg", alt="")
-                    .text
-                      figure.icon-container
-                        img(src="images/icons/money-icon.png", alt="", width="70", height="70")
-                      strong.title-1 Real Advantages.
-                      a(href="#")
-                        span What's yours?
-                        img(src="images/icons/diamond-arrow.png", alt="")
-            //- page overview (optional)
-            //- .page-overview
-              .row
                 .columns
-                  .row
-                    .content.page-section
-                      h2.overview-title LNB Is your Hometown Advantage
-                      .row
-                        .columns.medium-8.medium-centered
-                          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam qui quisquam maxime recusandae quod ducimus? Eos quaerat id sunt eius quam sint suscipit iste illo doloribus aliquid. Omnis, et itaque.
-                      a(href="#").button Learn More
-                        img(src="images/icons/arrow.png", alt="")
+                  .page-hgroup
+                    img(src="images/icons/person-icon.png", alt="").left
+                    strong.pre-title Personal Banking
+                    h1 Personal Checking Services
+
             .page-content
               //- .page-section are our "dividers"
               .page-section
                 .row
-                  .columns.medium-11.medium-centered
-                    h2 Thing
-                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum magni perspiciatis facere, assumenda architecto cumque nulla in aliquam fugiat totam esse ea natus, delectus commodi et error atque explicabo minima!
+                  .columns.medium-10.medium-centered
+                    .row
+                      .columns.medium-7
+                        img(src="images/image-1.jpg", alt="")
+                        h2 Simple, Secure, Reliable
+                        p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum magni perspiciatis facere, assumenda architecto cumque nulla in aliquam fugiat totam esse ea natus, delectus commodi et error atque explicabo minima!
+                        p Totam illum dolorem soluta vitae, magni voluptatum eos perferendis voluptas enim. Quas nihil architecto inventore iusto illum ipsa, libero tenetur laboriosam nesciunt!
+                        p Magni dolor, repellendus nisi voluptatem necessitatibus adipisci quod! Dolorem, incidunt a, qui tempore, ducimus porro omnis praesentium ad odio nihil, aperiam accusantium.
+                        hr.alt
+                        h2 Personal Checking Options
+                        ul.tabs.vertical(data-tab)
+                          li.tab-title.active
+                            a(href="#panel-1") Tab 1
+                          li.tab-title
+                            a(href="#panel-2") Tab 2
+                          li.tab-title
+                            a(href="#panel-3") Tab 3
+                          li.tab-title
+                            a(href="#panel-4") Tab 4
+                          li.tab-title
+                            a(href="#panel-5") Tab 5
+
+                        .tabs-content
+                          .content.active#panel-1
+                            p This is the first panel of the basic tab example. You can place all sorts of content here including a grid.
+                          .content#panel-2
+                            p This is the second panel of the basic tab example. This is the second panel of the basic tab example.
+                          .content#panel-3
+                            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex quis deserunt cupiditate perspiciatis dolorum esse! Est, excepturi quas, doloremque laboriosam vel, dolorem a magnam ab accusamus explicabo corporis. Itaque, sapiente!
+                          .content#panel-4
+                            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore doloribus consectetur beatae, deserunt ut pariatur suscipit, id natus odio dolorum, hic vero eum dicta repudiandae error quaerat impedit neque veniam.
+                          .content#panel-5
+                            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellat tempora, facere fuga ratione odit! Consequatur voluptates facere optio adipisci tempore, hic, doloremque earum suscipit. Illum vitae omnis veritatis eum!
+                        a(href="#").button.right Compare All
+                        hr.alt
+                        h2 Which Option is Best For You?
+                        p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti autem numquam nihil enim sunt, velit quia, accusantium nemo! Molestiae, laborum, quas dolorem natus nesciunt consectetur aliquam rem facere porro accusamus.
+
+                      .columns.medium-5.yellow-bg
+                        h3 Personal Banking
+                        ul
+                          li
+                            a(href="#") Checking
+                          li
+                            a(href="#") Savings
+                          li
+                            a(href="#") Retirement
+                          li
+                            a(href="#") Loans &amp; Lending
+                        h3 Downloads
+                        ul
+                          li
+                            a(href="#") Brochure
+                          li
+                            a(href="#") Resource
+                          li
+                            a(href="#") Comparisons
+                        h3 Contact Our Team
+                        p Officiis vero labore, quos possimus? Molestias commodi vel quibusdam adipisci exercitationem eaque nobis pariatur necessitatibus reprehenderit repellat.
+                        hr
+                        a(href="#").find-your-branch Find Your Branch
+                        blockquote ...it was the 18th consecutive year we reported record earnings.
+
+
+
+              include _callout.jade
 
           include _footer.jade
 
