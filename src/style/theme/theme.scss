@@ -15,22 +15,62 @@
             background-color: $red;
             background-image: url(../images/red-agonals.png);
             background-repeat: repeat-x;
-            background-position: 0% -50%;
+            background-position: 0% -100%;
             color: $white;
             padding: rem-calc(10) rem-calc(16);
             margin: 0;
         }
         ul {
-            padding-top: rem-calc(20);
-            padding-bottom: rem-calc(20);
             margin-left: rem-calc(20);
-            margin-right: rem-calc(10);
+            > li a {
+                text-transform: uppercase;
+                font-family: $bree;
+                color: #737373;
+            }
+        }
+        .content {
+            padding: rem-calc(20) rem-calc(30);
+            hr {
+                margin-left: rem-calc(-30);
+                margin-right: rem-calc(-30);
+            }
         }
 
         @include mq(netbook) {
             margin-bottom: $column-gutter*1.5;
         }
     }
+
+        .find-your-branch {
+            text-transform: uppercase;
+            color: #737373;
+            transition: color 0.3s ease;
+            font-weight: bold;
+            &:hover {
+                color: darken(#737373, 5%);
+            }
+            img {
+                margin-left: rem-calc(12);
+            }
+        }
+
+        .blockquote-1 {
+            border: 1px solid $red;
+            text-transform: uppercase;
+            font-family: $bree;
+            font-size: rem-calc(24);
+            color: $red;
+            padding: $column-gutter $column-gutter*0.75 $column-gutter*0.75;
+            text-align: center;
+            position: relative;
+            &:before {
+                content: "\0a0";
+                display: inline-block;
+                position: absolute;
+                background-image: url(../images/small-logo.png);
+                background-repeat: no-repeat;
+            }
+        }
 
 
 
