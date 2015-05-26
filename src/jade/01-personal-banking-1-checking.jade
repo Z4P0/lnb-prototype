@@ -1,0 +1,54 @@
+doctype html
+html(lang="en").no-js
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge,chrome=1")
+    title LNB Banking
+    meta(name="description", content="LNB Banking")
+    include _head.jade
+
+  body#index
+    a(href="#main").visuallyhidden Skip to main content
+    .off-canvas-wrap(data-offcanvas)
+      .inner-wrap
+        .container
+          include _header.jade
+
+          main.main#main
+            header.page-header
+              .row
+                .homepage-slider-container
+                  .slide
+                    img(src="images/homepage-content-header-1.jpg", alt="")
+                    .text
+                      figure.icon-container
+                        img(src="images/icons/money-icon.png", alt="", width="70", height="70")
+                      strong.title-1 Real Advantages.
+                      a(href="#")
+                        span What's yours?
+                        img(src="images/icons/diamond-arrow.png", alt="")
+            //- page overview (optional)
+            //- .page-overview
+              .row
+                .columns
+                  .row
+                    .content.page-section
+                      h2.overview-title LNB Is your Hometown Advantage
+                      .row
+                        .columns.medium-8.medium-centered
+                          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam qui quisquam maxime recusandae quod ducimus? Eos quaerat id sunt eius quam sint suscipit iste illo doloribus aliquid. Omnis, et itaque.
+                      a(href="#").button Learn More
+                        img(src="images/icons/arrow.png", alt="")
+            .page-content
+              //- .page-section are our "dividers"
+              .page-section
+                .row
+                  .columns.medium-11.medium-centered
+                    h2 Thing
+                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum magni perspiciatis facere, assumenda architecto cumque nulla in aliquam fugiat totam esse ea natus, delectus commodi et error atque explicabo minima!
+
+          include _footer.jade
+
+        include _off-canvas.jade
+
+    include _scripts.jade

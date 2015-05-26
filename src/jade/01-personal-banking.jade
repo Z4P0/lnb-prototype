@@ -1,0 +1,136 @@
+doctype html
+html(lang="en").no-js
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge,chrome=1")
+    title LNB Banking
+    meta(name="description", content="LNB Banking")
+    include _head.jade
+
+  body#index
+    a(href="#main").visuallyhidden Skip to main content
+    .off-canvas-wrap(data-offcanvas)
+      .inner-wrap
+        .container
+          include _header.jade
+
+          main.main#main
+
+            header.page-header
+              .row
+                .columns
+                  .page-hgroup
+                    img(src="images/icons/person-icon.png", alt="").left
+                    strong.pre-title Banking Services
+                    h1 Personal Banking
+                  img(src="images/personal-banking-header-1.jpg", alt="")
+
+            .page-content
+              .page-section
+                .row
+                  .columns.medium-9.medium-centered
+                    ul.services-list
+                      li
+                        .row
+                          .columns.medium-6
+                            a(href="#")
+                              img(src="images/image-1.jpg", alt="")
+                          .columns.medium-6
+                            h2
+                              a(href="#") Personal Checking
+                            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad non, suscipit consequuntur cupiditate dolorum distinctio tenetur veritatis ducimus inventore, asperiores eius quos expedita unde quis hic beatae. Voluptatibus, eum, consectetur.
+                            a(href="#").button Learn More
+                      li
+                        .row
+                          .columns.medium-6
+                            a(href="#")
+                              img(src="images/image-1.jpg", alt="")
+                          .columns.medium-6
+                            h2
+                              a(href="#") Personal Savings
+                            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad non, suscipit consequuntur cupiditate dolorum distinctio tenetur veritatis ducimus inventore, asperiores eius quos expedita unde quis hic beatae. Voluptatibus, eum, consectetur.
+                            a(href="#").button Learn More
+                      li
+                        .row
+                          .columns.medium-6
+                            a(href="#")
+                              img(src="images/image-1.jpg", alt="")
+                          .columns.medium-6
+                            h2
+                              a(href="#") Retirement Planning &amp; Services
+                            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad non, suscipit consequuntur cupiditate dolorum distinctio tenetur veritatis ducimus inventore, asperiores eius quos expedita unde quis hic beatae. Voluptatibus, eum, consectetur.
+                            a(href="#").button Learn More
+                      li
+                        .row
+                          .columns.medium-6
+                            a(href="#")
+                              img(src="images/image-1.jpg", alt="")
+                          .columns.medium-6
+                            h2
+                              a(href="#") Loan &amp; Lending Service
+                            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad non, suscipit consequuntur cupiditate dolorum distinctio tenetur veritatis ducimus inventore, asperiores eius quos expedita unde quis hic beatae. Voluptatibus, eum, consectetur.
+                            a(href="#").button Learn More
+
+
+              .page-section.yellow-bg
+                .row
+                  .columns.medium-10.medium-centered
+                    h3 How Can We Help?
+                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit sed quam voluptates veritatis, corporis reiciendis natus asperiores ducimus eligendi, quae debitis. Atque similique mollitia neque nemo nostrum sed ad cumque.
+                    ul.homepage-overview-blocks.small-block-grid-1.medium-block-grid-3
+                      li
+                        .overview-block
+                          a(href="#").image-text-link
+                            figure
+                              img(src="images/image-1.jpg", alt="")
+                              figcaption
+                                img(src="images/icons/diamond-arrow.png", alt="")
+                                h3 First Time Buyer
+                          p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                          ul
+                            li Lorem ipsum dolor sit amet .
+                            li Consectetur adipisicing elit.
+                            li Necessitatibus maxim distinctio laborum.
+                          a(href="#").button View More Details
+                            img(src="images/icons/diamond-arrow.png", alt="")
+                      li
+                        .overview-block
+                          a(href="#").image-text-link
+                            figure
+                              img(src="images/image-2.jpg", alt="")
+                              figcaption
+                                img(src="images/icons/diamond-arrow.png", alt="")
+                                h3 Checking 101
+                          p Officia libero natus, necessitatibus eligendi rerum pariatur.
+                          ul
+                            li Lorem ipsum dolor sit amet .
+                            li Consectetur adipisicing elit.
+                            li Necessitatibus maxim distinctio laborum.
+                          a(href="#").button View More Details
+                            img(src="images/icons/diamond-arrow.png", alt="")
+                      li
+                        .overview-block
+                          a(href="#").image-text-link
+                            figure
+                              img(src="images/image-3.jpg", alt="")
+                              figcaption
+                                img(src="images/icons/diamond-arrow.png", alt="")
+                                h3 Buying First Car
+                          p Velit quibusdam aspernatur quod ut asperiores now we have found life in a bubble.
+                          ul
+                            li Lorem ipsum dolor sit amet .
+                            li Consectetur adipisicing elit.
+                            li Necessitatibus maxim distinctio laborum.
+                          a(href="#").button View More Details
+                            img(src="images/icons/diamond-arrow.png", alt="")
+
+              .callout
+                span Have you found your hometown advantage?
+                a(href="#").button Learn More
+
+
+          include _footer.jade
+
+        include _off-canvas.jade
+
+    include _scripts.jade

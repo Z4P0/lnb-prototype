@@ -12,32 +12,8 @@ html(lang="en").no-js
     .off-canvas-wrap(data-offcanvas)
       .inner-wrap
         .container
-          header.header
-            .row
-              .columns
+          include _header.jade
 
-                .logo-and-menu.row
-                  .columns.medium-5.medium-offset-1
-                    h1.h1
-                      span.visuallyhidden LNB Banking
-                      img(src="images/lnb-logo.png", alt="")
-                  .columns.medium-5.medium-pull-1
-                    a(href="#").right-off-canvas-toggle.right.button Bank Now &equiv;
-                      //- span &equiv;
-
-                nav.nav.row(role="navigation")
-                  h2.visuallyhidden Main Menu
-                  ul.small-block-grid-1.medium-block-grid-5
-                    li
-                      a(href="#") Personal Banking
-                    li
-                      a(href="#") Business Banking
-                    li
-                      a(href="#") Financial Services
-                    li
-                      a(href="#") New &amp; Resources
-                    li
-                      a(href="#") About LNB
           main.main#main
             header.page-header
               .row
@@ -134,10 +110,7 @@ html(lang="en").no-js
                     h2.title-4
                       span News &amp; Updates From LNB
 
-          footer.footer
-            .row
-              .columns
-                p Copyright 2015 Archer Communications
+          include _footer.jade
 
         include _off-canvas.jade
 
