@@ -17,9 +17,9 @@ html(lang="en").no-js
           main.main#main
 
             header.page-header
-              .row
-                .columns
-                  .page-hgroup
+              .page-hgroup.with-margin-bottom
+                .row
+                  .columns
                     img(src="images/icons/person-icon.png", alt="").left
                     strong.pre-title Personal Banking
                     h1 Personal Checking Services
@@ -28,27 +28,30 @@ html(lang="en").no-js
               //- .page-section are our "dividers"
               .page-section
                 .row
-                  .columns.medium-10.medium-centered
+                  //- .columns.medium-10.medium-centered
+                  .columns.medium-9.medium-centered.large-offset-2
                     .row
                       .columns.medium-7
                         img(src="images/image-1.jpg", alt="")
-                        h2 Simple, Secure, Reliable
+                        h2.title-5 Simple, Secure, Reliable
                         p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum magni perspiciatis facere, assumenda architecto cumque nulla in aliquam fugiat totam esse ea natus, delectus commodi et error atque explicabo minima!
                         p Totam illum dolorem soluta vitae, magni voluptatum eos perferendis voluptas enim. Quas nihil architecto inventore iusto illum ipsa, libero tenetur laboriosam nesciunt!
                         p Magni dolor, repellendus nisi voluptatem necessitatibus adipisci quod! Dolorem, incidunt a, qui tempore, ducimus porro omnis praesentium ad odio nihil, aperiam accusantium.
                         hr.alt
-                        h2 Personal Checking Options
-                        ul.tabs.vertical(data-tab)
+                        h2.title-5 Personal Checking Options
+                        ul.tabs.vertical.tabs-1(data-tab)
                           li.tab-title.active
-                            a(href="#panel-1") Tab 1
+                            a(href="#panel-1") Free Rewards Saver
                           li.tab-title
-                            a(href="#panel-2") Tab 2
+                            a(href="#panel-2") Free E-Rewards
                           li.tab-title
-                            a(href="#panel-3") Tab 3
+                            a(href="#panel-3") Basic Checking
                           li.tab-title
-                            a(href="#panel-4") Tab 4
+                            a(href="#panel-4") Regular Checking
                           li.tab-title
-                            a(href="#panel-5") Tab 5
+                            a(href="#panel-5") Now Interest
+                          li.tab-title
+                            a(href="#panel-6") HSA Checking
 
                         .tabs-content
                           .content.active#panel-1
@@ -61,35 +64,43 @@ html(lang="en").no-js
                             p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore doloribus consectetur beatae, deserunt ut pariatur suscipit, id natus odio dolorum, hic vero eum dicta repudiandae error quaerat impedit neque veniam.
                           .content#panel-5
                             p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellat tempora, facere fuga ratione odit! Consequatur voluptates facere optio adipisci tempore, hic, doloremque earum suscipit. Illum vitae omnis veritatis eum!
+                          .content#panel-6
+                            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellat tempora, facere fuga ratione odit! Consequatur voluptates facere optio adipisci tempore, hic, doloremque earum suscipit. Illum vitae omnis veritatis eum!
+
                         a(href="#").button.right Compare All
                         hr.alt
-                        h2 Which Option is Best For You?
+                        h2.title-5 Which Option is Best For You?
                         p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti autem numquam nihil enim sunt, velit quia, accusantium nemo! Molestiae, laborum, quas dolorem natus nesciunt consectetur aliquam rem facere porro accusamus.
 
+
                       .columns.medium-5.yellow-bg
-                        h3 Personal Banking
-                        ul
-                          li
-                            a(href="#") Checking
-                          li
-                            a(href="#") Savings
-                          li
-                            a(href="#") Retirement
-                          li
-                            a(href="#") Loans &amp; Lending
-                        h3 Downloads
-                        ul
-                          li
-                            a(href="#") Brochure
-                          li
-                            a(href="#") Resource
-                          li
-                            a(href="#") Comparisons
-                        h3 Contact Our Team
-                        p Officiis vero labore, quos possimus? Molestias commodi vel quibusdam adipisci exercitationem eaque nobis pariatur necessitatibus reprehenderit repellat.
-                        hr
-                        a(href="#").find-your-branch Find Your Branch
-                        blockquote ...it was the 18th consecutive year we reported record earnings.
+                        .personal-banking-sidebar
+                          .sidebar-section
+                            h3 Personal Banking
+                            ul
+                              li
+                                a(href="#") Checking
+                              li
+                                a(href="#") Savings
+                              li
+                                a(href="#") Retirement
+                              li
+                                a(href="#") Loans &amp; Lending
+                          .sidebar-section
+                            h3 Downloads
+                            ul
+                              li
+                                a(href="#") Brochure
+                              li
+                                a(href="#") Resource
+                              li
+                                a(href="#") Comparisons
+                          .sidebar-section
+                            h3 Contact Our Team
+                            p Officiis vero labore, quos possimus? Molestias commodi vel quibusdam adipisci exercitationem eaque nobis pariatur necessitatibus reprehenderit repellat.
+                            hr
+                            a(href="#").find-your-branch Find Your Branch
+                            blockquote ...it was the 18th consecutive year we reported record earnings.
 
 
 

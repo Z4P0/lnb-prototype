@@ -6,3 +6,22 @@
         margin-left: $column-gutter*0.5;
     }
 }
+
+.tabs.vertical {
+    max-width: 35%;
+    width: 35%;
+    a {
+        background-color: $yellow;
+        transition: background-color 0.2s ease;
+    }
+    .tab-title {
+        font-weight: 600;
+        &.active a {
+            background-color: $dark-red;
+            color: $white;
+        }
+    }
+    + .tabs-content {
+        background-color: $yellow;
+    }
+}

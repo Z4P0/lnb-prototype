@@ -3,6 +3,57 @@
 @import "foundation";  // foundation ovverrides
 
 
+.personal-banking-sidebar {
+    padding: $column-gutter $column-gutter $column-gutter*2;
+}
+    .sidebar-section {
+        background-color: $white;
+        margin-bottom: $column-gutter;
+        h3 {
+            text-transform: uppercase;
+            font-size: rem-calc(24);
+            background-color: $red;
+            background-image: url(../images/red-agonals.png);
+            background-repeat: repeat-x;
+            background-position: 0% -50%;
+            color: $white;
+            padding: rem-calc(10) rem-calc(16);
+            margin: 0;
+        }
+        ul {
+            padding-top: rem-calc(20);
+            padding-bottom: rem-calc(20);
+            margin-left: rem-calc(20);
+            margin-right: rem-calc(10);
+        }
+
+        @include mq(netbook) {
+            margin-bottom: $column-gutter*1.5;
+        }
+    }
+
+
+
+.tabs-1 {
+    text-transform: uppercase;
+    font-family: $bree;
+    font-size: rem-calc(24);
+}
+
+.red-bg {
+    background-color: $red;
+}
+
+
+.title-5 {
+    text-transform: uppercase;
+    font-size: rem-calc(25);
+    font-family: $bree;
+    color: $red;
+    line-height: 1;
+    margin: $column-gutter 0;
+}
+
 
 .callout {
     background-color: $red;
@@ -127,9 +178,16 @@
         margin-top: rem-calc(10);
     }
 
+    &.with-margin-bottom {
+        margin-bottom: $column-gutter;
+    }
+
     @include mq(netbook) {
         padding-top: $column-gutter*2;
         padding-bottom: $column-gutter*2;
+        &.with-margin-bottom {
+            margin-bottom: $column-gutter*2;
+        }
     }
 }
 
