@@ -29,6 +29,9 @@ $black       : #000000;
 
 $bree-serif: "bree-serif";
 $museo-sans: "museo-sans";
+// aliases
+$bree: $bree-serif;
+$museo: $museo-sans;
 
 
 // Foundation by ZURB
@@ -160,7 +163,8 @@ $font-family-serif: $bree-serif, Georgia, Cambria, "Times New Roman", Times, ser
 
 // We use these to control various global styles
 // $body-bg: $white;
-// $body-font-color: $jet;
+// $body-font-color: #737373;
+$body-font-color: $jumbo;
 // $body-font-family: $font-family-sans-serif;
 // $body-font-weight: $font-weight-normal;
 // $body-font-style: normal;
@@ -271,7 +275,7 @@ $header-font-family: $font-family-serif;
 // $paragraph-font-family: inherit;
 // $paragraph-font-weight: $font-weight-normal;
 // $paragraph-font-size: 1rem;
-// $paragraph-line-height: 1.6;
+$paragraph-line-height: 1.5;
 // $paragraph-margin-bottom: rem-calc(20);
 // $paragraph-aside-font-size: rem-calc(14);
 // $paragraph-aside-line-height: 1.35;
