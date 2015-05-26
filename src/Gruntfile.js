@@ -15,7 +15,8 @@ module.exports = function(grunt) {
             'js/monte/init.js',
         ],
         output: {
-            folder:                 '../build/',
+            folder:                 '../',
+            // folder:                 '../build/',
             css_folder:                 'style/',
             css_filename:                   'style.css',
             css_filename_minified:          'style.min.css',
