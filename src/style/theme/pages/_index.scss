@@ -2,12 +2,12 @@
     position: relative;
     .text {
         position: absolute;
-        bottom: 0;
         top: 0;
         left: 0;
         right: 0;
         text-align: center;
         color: $white;
+        padding-top: 10%;
         img {
             display: inline;
         }
@@ -21,8 +21,26 @@
                 margin-left: $column-gutter*0.5;
             }
         }
+        .title-1 {
+            margin-bottom: rem-calc(20);
+            padding-left: $column-gutter;
+            padding-right: $column-gutter;
+        }
         @include mq(netbook) {
-            padding-top: 15%;
+            padding-top: 8%;
+            .title-1 {
+                padding-left: $column-gutter*2;
+                padding-right: $column-gutter*2;
+            }
+
+        }
+        @include mq(desktop) {
+            // padding-top: 8%;
+            .title-1 {
+                padding-left: $column-gutter*5;
+                padding-right: $column-gutter*5;
+            }
+
         }
     }
 }
@@ -54,6 +72,9 @@
     }
 }
 
+.icon-container {
+    margin-bottom: rem-calc(18);
+}
 
 
 
@@ -67,13 +88,17 @@
     background-color: $white;
     padding: rem-calc(10);
     .button {
+        display: block;
         font-size: rem-calc(15);
+        font-family: $museo;
         margin-top: $column-gutter;
         margin-bottom: 0;
         background-color: $gold;
         width: 100%;
         padding-top: rem-calc(10);
         padding-bottom: rem-calc(10);
+        text-align: center;
+        letter-spacing: 1px;
     }
 }
 

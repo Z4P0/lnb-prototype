@@ -1,3 +1,40 @@
-.footer {
+.footer-mega {
+    padding: $column-gutter*1.75 0 $column-gutter*1.5;
+    background-color: #8d0730;
+    color: $white;
+    h3 {
+        color: $white;
+        text-transform: uppercase;
+        margin-bottom: rem-calc(18);
+        font-size: rem-calc(24);
+    }
+    ul li a {
+        text-transform: uppercase;
+        font-weight: bold;
+        color: $white;
+        &.button {
+            background-color: #6a0524;
+        }
+    }
+}
+
+    .footer-logo {
+        margin-bottom: $column-gutter*0.5;
+    }
+
+
+.copyright {
+    padding: $column-gutter*1.5 0 $column-gutter*2;
     text-align: center;
+    background-color: #6a0524;
+    background-image: url(../images/red-agonals.png);
+    p {
+        margin-bottom: 0;
+        color: $white;
+        + p {
+            margin-top: rem-calc(20);
+            font-size: rem-calc(24);
+            font-family: $bree;
+        }
+    }
 }
