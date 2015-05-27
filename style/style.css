@@ -10858,22 +10858,22 @@ figure {
   padding-bottom: 2.5rem;
 }
 
-/* line 3, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
-.top-bar-section li:not(.has-form) a:not(.button):hover {
+/* line 4, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
+.top-bar-section li:not(.has-form) a:not(.button):hover, .top-bar-section ul li:hover:not(.has-form) > a {
   background-color: #f2ebd6 !important;
 }
 
-/* line 8, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
+/* line 9, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
 .button {
   text-transform: uppercase;
   letter-spacing: 3px;
 }
-/* line 11, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
+/* line 12, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
 .button img {
   margin-left: .9375rem;
 }
 
-/* line 16, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
+/* line 17, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
 .tabs.tabs-1 {
   width: 35%; 
   max-width: 35%;
@@ -10884,31 +10884,31 @@ figure {
   border: 1px solid rgba(204, 204, 204, .5);
   border-right: none;
 }
-/* line 25, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
+/* line 26, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
 .tabs.tabs-1 a {
   background-color: #f6f1e2;
 }
-/* line 27, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
+/* line 28, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
 .tabs.tabs-1 a:hover {
   background-color: #f0e8cf;
 }
-/* line 32, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
+/* line 33, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
 .tabs.tabs-1 .tab-title {
   font-weight: 600;
 }
-/* line 34, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
+/* line 35, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
 .tabs.tabs-1 .tab-title a {
   border-right: 1px solid #ccc;
   border-right: 1px solid rgba(204, 204, 204, .5);
 }
-/* line 38, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
+/* line 39, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
 .tabs.tabs-1 .tab-title.active a {
   position: relative; 
   color: #fff;
   background-color: #8d0730;
   border-right-color: #8d0730;
 }
-/* line 43, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
+/* line 44, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
 .tabs.tabs-1 .tab-title.active a:after {
   position: absolute;
   right: 0;
@@ -10919,23 +10919,23 @@ figure {
   -webkit-background-size: contain;
           background-size: contain;
 }
-/* line 53, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
+/* line 54, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
 .tabs.tabs-1 .tab-title + .tab-title {
   border-top: 1px solid #ccc;
   border-top: 1px solid rgba(204, 204, 204, .5);
 }
-/* line 58, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
+/* line 59, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
 .tabs.tabs-1 + .tabs-content {
   float: right; 
   width: 65%;
   max-width: 65%;
   background-color: #f6f1e2;
 }
-/* line 63, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
+/* line 64, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
 .tabs.tabs-1 + .tabs-content .content {
   padding: 0;
 }
-/* line 65, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
+/* line 66, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
 .tabs.tabs-1 + .tabs-content .content strong {
   display: block;
   padding: 1.25rem 1.25rem;
@@ -10944,11 +10944,11 @@ figure {
   text-transform: uppercase;
   background-color: #b20738;
 }
-/* line 73, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
+/* line 74, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
 .tabs.tabs-1 + .tabs-content .content > div {
   padding: 1.25rem 1.25rem;
 }
-/* line 75, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
+/* line 76, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
 .tabs.tabs-1 + .tabs-content .content > div ul, .tabs.tabs-1 + .tabs-content .content > div ol {
   margin-left: .9375rem;
 }
