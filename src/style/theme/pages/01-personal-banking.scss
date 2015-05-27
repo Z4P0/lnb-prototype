@@ -128,3 +128,13 @@
                 background-repeat: no-repeat;
             }
         }
+
+
+.disclaimers {
+    small {
+        display: block;
+        + small {
+            margin-top: rem-calc(8);
+        }
+    }
+}

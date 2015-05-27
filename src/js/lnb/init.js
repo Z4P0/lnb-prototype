@@ -75,6 +75,11 @@
                 // smooth scroll - original source below
                 // http://www.learningjquery.com/2007/10/improved-animated-scrolling-script-for-same-page-links
                 $('a[href*=#]:not([href=#])').click(function() {
+
+                    // edit 1 - prevent a bug where this code conflicts with
+                    // Foundation's tab js to cause jankiness
+                    if ($(this).parent().hasClass('tab-title')) return;
+
                     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
                         var target = $(this.hash);
                         target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
