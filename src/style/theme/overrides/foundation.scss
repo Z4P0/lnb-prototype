@@ -1,4 +1,10 @@
 // ZURB Foundation overrides + additions
+// .top-bar
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+    background-color: darken($yellow, 3%) !important;
+}
+
+
 .button {
     text-transform: uppercase;
     letter-spacing: 3px;
