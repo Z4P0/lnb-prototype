@@ -10209,8 +10209,51 @@ figure {
 }
 
 /* line 1, /Users/zapo/Desktop/lnb-prototype/src/style/theme/core/footer */
-.footer {
+.footer-mega {
+  padding: 3.28125rem 0 2.8125rem;
+  color: #fff; 
+  background-color: #8d0730;
+}
+/* line 5, /Users/zapo/Desktop/lnb-prototype/src/style/theme/core/footer */
+.footer-mega h3 {
+  margin-bottom: 1.125rem;
+  font-size: 1.5rem; 
+  color: #fff;
+  text-transform: uppercase;
+}
+/* line 11, /Users/zapo/Desktop/lnb-prototype/src/style/theme/core/footer */
+.footer-mega ul li a {
+  font-weight: bold;
+  color: #fff; 
+  text-transform: uppercase;
+}
+/* line 15, /Users/zapo/Desktop/lnb-prototype/src/style/theme/core/footer */
+.footer-mega ul li a.button {
+  background-color: #6a0524;
+}
+
+/* line 21, /Users/zapo/Desktop/lnb-prototype/src/style/theme/core/footer */
+.footer-logo {
+  margin-bottom: .9375rem;
+}
+
+/* line 26, /Users/zapo/Desktop/lnb-prototype/src/style/theme/core/footer */
+.copyright {
+  padding: 2.8125rem 0 3.75rem;
   text-align: center;
+  background-color: #6a0524;
+  background-image: url(../images/red-agonals.png);
+}
+/* line 31, /Users/zapo/Desktop/lnb-prototype/src/style/theme/core/footer */
+.copyright p {
+  margin-bottom: 0;
+  color: #fff;
+}
+/* line 34, /Users/zapo/Desktop/lnb-prototype/src/style/theme/core/footer */
+.copyright p + p {
+  margin-top: 1.25rem;
+  font-family: "bree-serif"; 
+  font-size: 1.5rem;
 }
 
 /* line 1, /Users/zapo/Desktop/lnb-prototype/src/style/theme/core/header */
@@ -10228,14 +10271,19 @@ figure {
 .title-1 {
   display: block;
   font-family: "bree-serif";
-  font-size: 4.6875rem;
+  font-size: 2.25rem;
   font-weight: 400;
-  line-height: 1; 
+  line-height: 1.2; 
   color: #fff;
   text-transform: uppercase;
 }
+@media only screen and (min-width: 768px) {
+  .title-1 {
+    font-size: 3.125rem;
+  }
+}
 
-/* line 12, /Users/zapo/Desktop/lnb-prototype/src/style/theme/core/typography */
+/* line 15, /Users/zapo/Desktop/lnb-prototype/src/style/theme/core/typography */
 .title-2 {
   margin-bottom: 1.875rem; 
   font-size: 2.4375rem;
@@ -10243,7 +10291,7 @@ figure {
   text-transform: uppercase;
 }
 
-/* line 20, /Users/zapo/Desktop/lnb-prototype/src/style/theme/core/typography */
+/* line 23, /Users/zapo/Desktop/lnb-prototype/src/style/theme/core/typography */
 .title-3 {
   color: #d59f0f;
   text-transform: uppercase;
@@ -10251,17 +10299,17 @@ figure {
   border-bottom: 1px solid;
 }
 
-/* line 28, /Users/zapo/Desktop/lnb-prototype/src/style/theme/core/typography */
+/* line 31, /Users/zapo/Desktop/lnb-prototype/src/style/theme/core/typography */
 .title-4 {
   margin: 0;
   text-align: center;
 }
-/* line 31, /Users/zapo/Desktop/lnb-prototype/src/style/theme/core/typography */
+/* line 34, /Users/zapo/Desktop/lnb-prototype/src/style/theme/core/typography */
 .title-4 span {
   position: relative;
 }
 
-/* line 37, /Users/zapo/Desktop/lnb-prototype/src/style/theme/core/typography */
+/* line 40, /Users/zapo/Desktop/lnb-prototype/src/style/theme/core/typography */
 .title-5 {
   margin: 1.875rem 0; 
   font-family: "bree-serif";
@@ -10411,9 +10459,9 @@ figure {
   position: absolute;
   top: 0;
   right: 0;
-  bottom: 0;
   left: 0;
-  color: #fff; 
+  padding-top: 10%; 
+  color: #fff;
   text-align: center;
 }
 /* line 11, /Users/zapo/Desktop/lnb-prototype/src/style/theme/pages/index */
@@ -10432,38 +10480,56 @@ figure {
 .slide .text a img {
   margin-left: .9375rem;
 }
+/* line 24, /Users/zapo/Desktop/lnb-prototype/src/style/theme/pages/index */
+.slide .text .title-1 {
+  padding-right: 1.875rem; 
+  padding-left: 1.875rem;
+  margin-bottom: 1.25rem;
+}
 @media only screen and (min-width: 768px) {
   .slide .text {
-    padding-top: 15%;
+    padding-top: 8%;
+  }
+  /* line 31, /Users/zapo/Desktop/lnb-prototype/src/style/theme/pages/index */
+  .slide .text .title-1 {
+    padding-right: 3.75rem; 
+    padding-left: 3.75rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  /* line 39, /Users/zapo/Desktop/lnb-prototype/src/style/theme/pages/index */
+  .slide .text .title-1 {
+    padding-right: 9.375rem; 
+    padding-left: 9.375rem;
   }
 }
 
-/* line 30, /Users/zapo/Desktop/lnb-prototype/src/style/theme/pages/index */
+/* line 48, /Users/zapo/Desktop/lnb-prototype/src/style/theme/pages/index */
 .image-text-link {
   display: block;
 }
-/* line 32, /Users/zapo/Desktop/lnb-prototype/src/style/theme/pages/index */
+/* line 50, /Users/zapo/Desktop/lnb-prototype/src/style/theme/pages/index */
 .image-text-link figure {
   margin-bottom: .9375rem; 
   background-color: #b20738;
 }
-/* line 35, /Users/zapo/Desktop/lnb-prototype/src/style/theme/pages/index */
+/* line 53, /Users/zapo/Desktop/lnb-prototype/src/style/theme/pages/index */
 .image-text-link figure > img {
   display: block;
 }
-/* line 39, /Users/zapo/Desktop/lnb-prototype/src/style/theme/pages/index */
+/* line 57, /Users/zapo/Desktop/lnb-prototype/src/style/theme/pages/index */
 .image-text-link figcaption {
   position: relative; 
   text-align: center;
   text-transform: uppercase;
 }
-/* line 43, /Users/zapo/Desktop/lnb-prototype/src/style/theme/pages/index */
+/* line 61, /Users/zapo/Desktop/lnb-prototype/src/style/theme/pages/index */
 .image-text-link figcaption img {
   position: absolute;
   bottom: 70%; 
   left: 42.5%;
 }
-/* line 48, /Users/zapo/Desktop/lnb-prototype/src/style/theme/pages/index */
+/* line 66, /Users/zapo/Desktop/lnb-prototype/src/style/theme/pages/index */
 .image-text-link figcaption h3 {
   padding: 1.25rem 0; 
   margin: 0;
@@ -10471,28 +10537,37 @@ figure {
   color: #fff;
 }
 
-/* line 61, /Users/zapo/Desktop/lnb-prototype/src/style/theme/pages/index */
+/* line 75, /Users/zapo/Desktop/lnb-prototype/src/style/theme/pages/index */
+.icon-container {
+  margin-bottom: 1.125rem;
+}
+
+/* line 82, /Users/zapo/Desktop/lnb-prototype/src/style/theme/pages/index */
 .homepage-overview-blocks li {
   padding-bottom: 0;
 }
 
-/* line 66, /Users/zapo/Desktop/lnb-prototype/src/style/theme/pages/index */
+/* line 87, /Users/zapo/Desktop/lnb-prototype/src/style/theme/pages/index */
 .overview-block {
   padding: .625rem; 
   background-color: #fff;
 }
-/* line 69, /Users/zapo/Desktop/lnb-prototype/src/style/theme/pages/index */
+/* line 90, /Users/zapo/Desktop/lnb-prototype/src/style/theme/pages/index */
 .overview-block .button {
+  display: block;
   width: 100%;
   padding-top: .625rem;
-  padding-bottom: .625rem; 
+  padding-bottom: .625rem;
   margin-top: 1.875rem;
   margin-bottom: 0;
+  font-family: "museo-sans";
   font-size: .9375rem;
+  text-align: center;
+  letter-spacing: 1px; 
   background-color: #d59f0f;
 }
 
-/* line 82, /Users/zapo/Desktop/lnb-prototype/src/style/theme/pages/index */
+/* line 107, /Users/zapo/Desktop/lnb-prototype/src/style/theme/pages/index */
 .community-focus {
   position: relative;
   padding: 3.75rem 1.875rem 1.875rem;
@@ -10505,7 +10580,7 @@ figure {
   }
 }
 
-/* line 92, /Users/zapo/Desktop/lnb-prototype/src/style/theme/pages/index */
+/* line 117, /Users/zapo/Desktop/lnb-prototype/src/style/theme/pages/index */
 .community-focus-hgroup {
   position: absolute;
   right: 0;
@@ -10513,7 +10588,7 @@ figure {
   left: 0;
   text-align: center;
 }
-/* line 98, /Users/zapo/Desktop/lnb-prototype/src/style/theme/pages/index */
+/* line 123, /Users/zapo/Desktop/lnb-prototype/src/style/theme/pages/index */
 .community-focus-hgroup h2 {
   display: inline-block;
   padding: 0 3.75rem;
@@ -10641,23 +10716,25 @@ figure {
 
 /* line 101, /Users/zapo/Desktop/lnb-prototype/src/style/theme/pages/01-personal-banking */
 .find-your-branch {
+  display: block;
   font-weight: bold; 
   color: #737373;
+  text-align: center;
   text-transform: uppercase;
   -webkit-transition: color .3s ease;
        -o-transition: color .3s ease;
           transition: color .3s ease;
 }
-/* line 106, /Users/zapo/Desktop/lnb-prototype/src/style/theme/pages/01-personal-banking */
+/* line 108, /Users/zapo/Desktop/lnb-prototype/src/style/theme/pages/01-personal-banking */
 .find-your-branch:hover {
   color: #666;
 }
-/* line 109, /Users/zapo/Desktop/lnb-prototype/src/style/theme/pages/01-personal-banking */
+/* line 111, /Users/zapo/Desktop/lnb-prototype/src/style/theme/pages/01-personal-banking */
 .find-your-branch img {
   margin-left: .75rem;
 }
 
-/* line 114, /Users/zapo/Desktop/lnb-prototype/src/style/theme/pages/01-personal-banking */
+/* line 116, /Users/zapo/Desktop/lnb-prototype/src/style/theme/pages/01-personal-banking */
 .blockquote-1 {
   position: relative; 
   padding: 1.875rem 1.40625rem 1.40625rem;
@@ -10668,20 +10745,29 @@ figure {
   text-transform: uppercase;
   border: 1px solid #b20738;
 }
-/* line 123, /Users/zapo/Desktop/lnb-prototype/src/style/theme/pages/01-personal-banking */
+/* line 125, /Users/zapo/Desktop/lnb-prototype/src/style/theme/pages/01-personal-banking */
 .blockquote-1:before {
   position: absolute;
-  display: inline-block;
+  top: -23px;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 46px;
   content: "\0a0";
   background-image: url(../images/small-logo.png);
   background-repeat: no-repeat;
+  background-position: center center;
 }
 
-/* line 134, /Users/zapo/Desktop/lnb-prototype/src/style/theme/pages/01-personal-banking */
+/* line 141, /Users/zapo/Desktop/lnb-prototype/src/style/theme/pages/01-personal-banking */
+.disclaimers {
+  margin-top: 3.75rem;
+}
+/* line 143, /Users/zapo/Desktop/lnb-prototype/src/style/theme/pages/01-personal-banking */
 .disclaimers small {
   display: block;
 }
-/* line 136, /Users/zapo/Desktop/lnb-prototype/src/style/theme/pages/01-personal-banking */
+/* line 145, /Users/zapo/Desktop/lnb-prototype/src/style/theme/pages/01-personal-banking */
 .disclaimers small + small {
   margin-top: .5rem;
 }
@@ -10783,36 +10869,83 @@ figure {
 }
 
 /* line 10, /Users/zapo/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
-.tabs.vertical {
+.tabs.tabs-1 {
   width: 35%; 
   max-width: 35%;
-}
-/* line 13, /Users/zapo/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
-.tabs.vertical a {
-  background-color: #f6f1e2;
-  -webkit-transition: background-color .2s ease;
-       -o-transition: background-color .2s ease;
-          transition: background-color .2s ease;
-}
-/* line 17, /Users/zapo/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
-.tabs.vertical .tab-title {
-  font-weight: 600;
+  font-family: "bree-serif";
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(204, 204, 204, .5);
+  border-right: none;
 }
 /* line 19, /Users/zapo/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
-.tabs.vertical .tab-title.active a {
-  color: #fff; 
-  background-color: #8d0730;
-}
-/* line 24, /Users/zapo/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
-.tabs.vertical + .tabs-content {
+.tabs.tabs-1 a {
   background-color: #f6f1e2;
 }
-
-/* line 29, /Users/zapo/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
-.tabs-1 {
-  font-family: "bree-serif";
-  font-size: 1.5rem; 
+/* line 21, /Users/zapo/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
+.tabs.tabs-1 a:hover {
+  background-color: #f0e8cf;
+}
+/* line 26, /Users/zapo/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
+.tabs.tabs-1 .tab-title {
+  font-weight: 600;
+}
+/* line 28, /Users/zapo/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
+.tabs.tabs-1 .tab-title a {
+  border-right: 1px solid #ccc;
+  border-right: 1px solid rgba(204, 204, 204, .5);
+}
+/* line 32, /Users/zapo/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
+.tabs.tabs-1 .tab-title.active a {
+  position: relative; 
+  color: #fff;
+  background-color: #8d0730;
+  border-right-color: #8d0730;
+}
+/* line 37, /Users/zapo/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
+.tabs.tabs-1 .tab-title.active a:after {
+  position: absolute;
+  right: 0;
+  display: inline-block;
+  content: "\0a0";
+  background-image: url(../images/active-tab-triangle.png);
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+          background-size: contain;
+}
+/* line 47, /Users/zapo/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
+.tabs.tabs-1 .tab-title + .tab-title {
+  border-top: 1px solid #ccc;
+  border-top: 1px solid rgba(204, 204, 204, .5);
+}
+/* line 52, /Users/zapo/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
+.tabs.tabs-1 + .tabs-content {
+  float: right; 
+  width: 65%;
+  max-width: 65%;
+  background-color: #f6f1e2;
+}
+/* line 57, /Users/zapo/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
+.tabs.tabs-1 + .tabs-content .content {
+  padding: 0;
+}
+/* line 59, /Users/zapo/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
+.tabs.tabs-1 + .tabs-content .content strong {
+  display: block;
+  padding: 1.25rem 1.25rem;
+  font-size: .9375rem; 
+  color: #fff;
   text-transform: uppercase;
+  background-color: #b20738;
+}
+/* line 67, /Users/zapo/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
+.tabs.tabs-1 + .tabs-content .content > div {
+  padding: 1.25rem 1.25rem;
+}
+/* line 69, /Users/zapo/Desktop/lnb-prototype/src/style/theme/overrides/foundation */
+.tabs.tabs-1 + .tabs-content .content > div ul, .tabs.tabs-1 + .tabs-content .content > div ol {
+  margin-left: .9375rem;
 }
 
 /* Slider */
@@ -10913,22 +11046,18 @@ figure {
 }
 
 /* Dots */
-/* line 127, /Users/zapo/Desktop/lnb-prototype/src/style/theme/overrides/slick */
-.slick-slider {
-  margin-bottom: 30px;
-}
-
 /* line 131, /Users/zapo/Desktop/lnb-prototype/src/style/theme/overrides/slick */
 .slick-dots {
   position: absolute;
-  bottom: -45px;
+  bottom: 0;
   display: block;
   width: 100%; 
   padding: 0;
+  margin-bottom: 1.875rem;
   text-align: center;
   list-style: none;
 }
-/* line 139, /Users/zapo/Desktop/lnb-prototype/src/style/theme/overrides/slick */
+/* line 141, /Users/zapo/Desktop/lnb-prototype/src/style/theme/overrides/slick */
 .slick-dots li {
   position: relative;
   display: inline-block;
@@ -10938,7 +11067,7 @@ figure {
   margin: 0 5px;
   cursor: pointer;
 }
-/* line 147, /Users/zapo/Desktop/lnb-prototype/src/style/theme/overrides/slick */
+/* line 149, /Users/zapo/Desktop/lnb-prototype/src/style/theme/overrides/slick */
 .slick-dots li button {
   display: block;
   width: 20px;
@@ -10952,15 +11081,15 @@ figure {
   border: 0;
   outline: none;
 }
-/* line 159, /Users/zapo/Desktop/lnb-prototype/src/style/theme/overrides/slick */
+/* line 161, /Users/zapo/Desktop/lnb-prototype/src/style/theme/overrides/slick */
 .slick-dots li button:hover, .slick-dots li button:focus {
   outline: none;
 }
-/* line 161, /Users/zapo/Desktop/lnb-prototype/src/style/theme/overrides/slick */
+/* line 163, /Users/zapo/Desktop/lnb-prototype/src/style/theme/overrides/slick */
 .slick-dots li button:hover:before, .slick-dots li button:focus:before {
   opacity: 1;
 }
-/* line 165, /Users/zapo/Desktop/lnb-prototype/src/style/theme/overrides/slick */
+/* line 167, /Users/zapo/Desktop/lnb-prototype/src/style/theme/overrides/slick */
 .slick-dots li button:before {
   position: absolute;
   top: 0;
@@ -10968,9 +11097,9 @@ figure {
   width: 20px;
   height: 20px;
   font-family: "slick";
-  font-size: 6px;
+  font-size: 12px;
   line-height: 20px;
-  color: black;
+  color: #fff;
   text-align: center;
   content: "•";
   opacity: .25;
@@ -10978,8 +11107,8 @@ figure {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-/* line 182, /Users/zapo/Desktop/lnb-prototype/src/style/theme/overrides/slick */
+/* line 184, /Users/zapo/Desktop/lnb-prototype/src/style/theme/overrides/slick */
 .slick-dots li.slick-active button:before {
-  color: black;
+  color: #fff;
   opacity: .75;
 }
