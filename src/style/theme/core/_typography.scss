@@ -1,29 +1,43 @@
-/* t1 - t6 */
-.t1 {
-    font-size: 4.5em;
+.title-1 {
+    font-family: $bree-serif;
+    color: $white;
     display: block;
+    font-size: rem-calc(75);
+    text-transform: uppercase;
+    font-weight: 400;
 }
-.t2 {
-    font-size: 3.75em;
-    display: block;
+
+
+.title-2 {
+    color: $red;
+    font-size: rem-calc(39);
+    text-transform: uppercase;
+    margin-bottom: $column-gutter;
 }
-.t3 {
-    font-size: 3em;
-    display: block;
+
+
+.title-3 {
+    color: $gold;
+    text-transform: uppercase;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
 }
-.t4 {
-    font-size: 2.25em;
-    display: block;
+
+
+.title-4 {
+    margin: 0;
+    text-align: center;
+    span {
+        position: relative;
+    }
 }
-.t5 {
-    font-size: 1.5em;
-    display: block;
-}
-.t6 {
-    font-size: 1.3125em;
-    display: block;
-}
-.t7 {
-    font-size: 1.125em;
-    display: block;
+
+
+.title-5 {
+    text-transform: uppercase;
+    font-size: rem-calc(25);
+    font-family: $bree;
+    color: $red;
+    line-height: 1;
+    margin: $column-gutter 0;
 }

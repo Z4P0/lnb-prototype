@@ -1,0 +1,105 @@
+.slide {
+    position: relative;
+    .text {
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        color: $white;
+        a {
+            display: block;
+            color: $white;
+            text-transform: uppercase;
+            font-size: rem-calc(15);
+            font-weight: bold;
+            img {
+                margin-left: $column-gutter*0.5;
+            }
+        }
+        @include mq(netbook) {
+            padding-top: 15%;
+        }
+    }
+}
+
+.image-text-link {
+    display: block;
+    figure  {
+        background-color: $red;
+        margin-bottom: $column-gutter*0.5;
+        > img {
+            display: block;
+        }
+    }
+    figcaption {
+        text-align: center;
+        text-transform: uppercase;
+        position: relative;
+        img {
+            position: absolute;
+            left: 42.5%;
+            bottom: 70%;
+        }
+        h3 {
+            color: $white;
+            font-size: rem-calc(24);
+            margin: 0;
+            padding: rem-calc(20) 0;
+        }
+    }
+}
+
+
+
+
+.homepage-overview-blocks {
+    li {
+        padding-bottom: 0;
+    }
+}
+
+.overview-block {
+    background-color: $white;
+    padding: rem-calc(10);
+    .button {
+        font-size: rem-calc(15);
+        margin-top: $column-gutter;
+        margin-bottom: 0;
+        background-color: $gold;
+        width: 100%;
+        padding-top: rem-calc(10);
+        padding-bottom: rem-calc(10);
+    }
+}
+
+
+
+.community-focus {
+    padding: $column-gutter*2 $column-gutter $column-gutter;
+    border: 1px solid $red;
+    position: relative;
+    margin: rem-calc(40) 0;
+    @include mq(netbook) {
+        padding: $column-gutter*3 $column-gutter*2 $column-gutter;
+    }
+}
+
+.community-focus-hgroup {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 95%;
+    h2 {
+        // font-size: rem-calc(24);
+        display: inline-block;
+        text-transform: uppercase;
+        color :$red;
+        background-color: $white;
+        padding: 0 $column-gutter*2;
+        margin: 0;
+    }
+}
+

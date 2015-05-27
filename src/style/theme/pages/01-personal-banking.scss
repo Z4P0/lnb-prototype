@@ -1,0 +1,130 @@
+// includes child page styles
+.how-can-we-help {
+    background-color: $yellow;
+    .hgroup {
+        text-align: center;
+        padding-right: $column-gutter;
+        padding-left: $column-gutter;
+    }
+    .homepage-overview-blocks {
+        margin-bottom: $column-gutter;
+    }
+    @include mq(netbook) {
+        .hgroup {
+            margin-top: $column-gutter;
+            margin-bottom: rem-calc(50);
+            padding-right: $column-gutter*2;
+            padding-left: $column-gutter*2;
+        }
+        .homepage-overview-blocks {
+            margin-bottom: $column-gutter*2;
+        }
+    }
+}
+
+
+.services-list {
+    list-style: none;
+    li {
+        + li {
+            margin-top: rem-calc(15);
+            border-top: 1px solid $grey;
+            padding-top: rem-calc(25);
+        }
+    }
+    a.image {
+        display: block;
+        text-align: right;
+    }
+    .title {
+        text-transform: uppercase;
+        font-size: rem-calc(25);
+        font-family: $bree;
+        color: $red;
+        line-height: 1;
+        margin: 0 0 $column-gutter;
+        a {
+            color: inherit;
+        }
+    }
+    @include mq(netbook) {
+        margin-top: rem-calc(50);
+        margin-bottom: rem-calc(50);
+        li + li {
+            margin-top: rem-calc(30);
+            padding-top: rem-calc(50);
+        }
+    }
+}
+
+
+// personal checking
+// ----------------------------------------
+.personal-banking-sidebar {
+    padding: $column-gutter $column-gutter $column-gutter*2;
+}
+    .sidebar-section {
+        background-color: $white;
+        margin-bottom: $column-gutter;
+        h3 {
+            text-transform: uppercase;
+            font-size: rem-calc(24);
+            background-color: $red;
+            background-image: url(../images/red-agonals.png);
+            background-repeat: repeat-x;
+            background-position: 0% -100%;
+            color: $white;
+            padding: rem-calc(10) rem-calc(16);
+            margin: 0;
+        }
+        ul {
+            margin-left: rem-calc(20);
+            > li a {
+                text-transform: uppercase;
+                font-family: $bree;
+                color: #737373;
+            }
+        }
+        .content {
+            padding: rem-calc(20) rem-calc(30);
+            hr {
+                margin-left: rem-calc(-30);
+                margin-right: rem-calc(-30);
+            }
+        }
+
+        @include mq(netbook) {
+            margin-bottom: $column-gutter*1.5;
+        }
+    }
+
+        .find-your-branch {
+            text-transform: uppercase;
+            color: #737373;
+            transition: color 0.3s ease;
+            font-weight: bold;
+            &:hover {
+                color: darken(#737373, 5%);
+            }
+            img {
+                margin-left: rem-calc(12);
+            }
+        }
+
+        .blockquote-1 {
+            border: 1px solid $red;
+            text-transform: uppercase;
+            font-family: $bree;
+            font-size: rem-calc(24);
+            color: $red;
+            padding: $column-gutter $column-gutter*0.75 $column-gutter*0.75;
+            text-align: center;
+            position: relative;
+            &:before {
+                content: "\0a0";
+                display: inline-block;
+                position: absolute;
+                background-image: url(../images/small-logo.png);
+                background-repeat: no-repeat;
+            }
+        }
