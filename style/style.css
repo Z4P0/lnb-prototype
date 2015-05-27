@@ -10258,11 +10258,18 @@ figure {
 
 /* line 1, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/core/header */
 .right-off-canvas-toggle {
-  margin-top: 5%; 
+  margin-top: 5%;
   margin-bottom: 0;
+  font-family: "bree-serif";
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+/* line 7, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/core/header */
+.right-off-canvas-toggle img {
+  margin-left: 1rem;
 }
 
-/* line 6, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/core/header */
+/* line 12, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/core/header */
 .logo-and-menu {
   padding: .9375rem 0;
 }
@@ -10363,89 +10370,95 @@ figure {
 /* line 1, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/components/off-canvas */
 .off-canvas {
   padding-top: 1.875rem;
+  background-color: #fbf9f2;
+  border-left: 2px solid #dedacd;
 }
 
-/* line 5, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/components/off-canvas */
+/* line 7, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/components/off-canvas */
 .off-canvas-header {
   margin-bottom: .9375rem;
 }
-/* line 7, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/components/off-canvas */
+/* line 9, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/components/off-canvas */
 .off-canvas-header h1 {
+  font-size: 2.4375rem; 
   line-height: 1;
+  color: #b20738;
+  text-transform: uppercase;
 }
 
-/* line 11, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/components/off-canvas */
+/* line 16, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/components/off-canvas */
 .off-canvas-section {
   padding-top: .9375rem;
   padding-bottom: .9375rem;
 }
 
-/* line 16, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/components/off-canvas */
+/* line 21, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/components/off-canvas */
 .offcanvas-title {
   margin-top: 0;
-  margin-bottom: .5rem; 
-  font-size: 1.5rem;
+  margin-bottom: .5rem;
+  font-size: 1.5625rem;
+  color: #b20738; 
+  text-transform: uppercase;
 }
 
-/* line 22, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/components/off-canvas */
+/* line 29, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/components/off-canvas */
 .banking-portals-list {
   margin-bottom: 0; 
   list-style: none;
 }
-/* line 25, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/components/off-canvas */
+/* line 32, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/components/off-canvas */
 .banking-portals-list li + li {
   margin-top: .65625rem;
 }
-/* line 28, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/components/off-canvas */
+/* line 35, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/components/off-canvas */
 .banking-portals-list a {
   display: block;
-  padding: .46875rem .9375rem;
+  padding: .9375rem .9375rem; 
   color: #fff;
-  background-color: #b20738;
-  border-radius: 15px;
+  background-color: #8d0730;
 }
 
-/* line 39, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/components/off-canvas */
+/* line 46, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/components/off-canvas */
 .off-canvas-search .button {
   letter-spacing: 1px;
 }
 
-/* line 44, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/components/off-canvas */
+/* line 51, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/components/off-canvas */
 .off-canvas-recent-news-container {
   padding: .9375rem; 
   border: 1px solid #b20738;
 }
-/* line 47, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/components/off-canvas */
+/* line 54, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/components/off-canvas */
 .off-canvas-recent-news-container .offcanvas-title {
   font-size: 1.5rem;
   text-align: center;
 }
 
-/* line 54, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/components/off-canvas */
+/* line 61, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/components/off-canvas */
 .off-canvas-article-preview h4 {
   font-size: 1rem;
 }
-/* line 57, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/components/off-canvas */
+/* line 64, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/components/off-canvas */
 .off-canvas-article-preview p {
   margin-bottom: 0;
   line-height: 1;
 }
 
-/* line 63, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/components/off-canvas */
+/* line 70, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/components/off-canvas */
 .date {
   text-align: center;
 }
-/* line 66, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/components/off-canvas */
+/* line 73, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/components/off-canvas */
 .date .day, .date .month {
   display: block;
 }
-/* line 69, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/components/off-canvas */
+/* line 76, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/components/off-canvas */
 .date .month {
   margin: 0 10px; 
   text-transform: uppercase;
   border-bottom: 1px solid;
 }
-/* line 74, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/components/off-canvas */
+/* line 81, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/components/off-canvas */
 .date .day {
   font-size: 1rem;
 }
