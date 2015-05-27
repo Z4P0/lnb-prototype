@@ -10529,20 +10529,21 @@ figure {
 /* line 53, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/pages/index */
 .image-text-link figure > img {
   display: block;
+  width: 100%;
 }
-/* line 57, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/pages/index */
+/* line 58, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/pages/index */
 .image-text-link figcaption {
   position: relative; 
   text-align: center;
   text-transform: uppercase;
 }
-/* line 61, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/pages/index */
+/* line 62, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/pages/index */
 .image-text-link figcaption img {
   position: absolute;
   bottom: 70%; 
   left: 42.5%;
 }
-/* line 66, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/pages/index */
+/* line 67, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/pages/index */
 .image-text-link figcaption h3 {
   padding: 1.25rem 0; 
   margin: 0;
@@ -10550,22 +10551,22 @@ figure {
   color: #fff;
 }
 
-/* line 75, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/pages/index */
+/* line 76, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/pages/index */
 .icon-container {
   margin-bottom: 1.125rem;
 }
 
-/* line 82, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/pages/index */
+/* line 83, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/pages/index */
 .homepage-overview-blocks li {
   padding-bottom: 0;
 }
 
-/* line 87, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/pages/index */
+/* line 88, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/pages/index */
 .overview-block {
   padding: .625rem; 
   background-color: #fff;
 }
-/* line 90, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/pages/index */
+/* line 91, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/pages/index */
 .overview-block .button {
   display: block;
   width: 100%;
@@ -10580,7 +10581,7 @@ figure {
   background-color: #d59f0f;
 }
 
-/* line 107, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/pages/index */
+/* line 108, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/pages/index */
 .community-focus {
   position: relative;
   padding: 3.75rem 1.875rem 1.875rem;
@@ -10593,7 +10594,7 @@ figure {
   }
 }
 
-/* line 117, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/pages/index */
+/* line 118, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/pages/index */
 .community-focus-hgroup {
   position: absolute;
   right: 0;
@@ -10601,7 +10602,7 @@ figure {
   left: 0;
   text-align: center;
 }
-/* line 123, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/pages/index */
+/* line 124, /Users/archerdev/Desktop/lnb-prototype/src/style/theme/pages/index */
 .community-focus-hgroup h2 {
   display: inline-block;
   padding: 0 3.75rem;
