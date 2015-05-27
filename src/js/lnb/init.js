@@ -44,7 +44,7 @@
                     cssEase: 'ease-out',
                     dots: true,
                     mobileFirst: true,
-                    pauseOnHover: true,
+                    pauseOnHover: false,
                     pauseOnDotsHover: true,
                     speed: 500,
                     swipe: false

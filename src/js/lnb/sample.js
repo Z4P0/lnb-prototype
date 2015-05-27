@@ -5,7 +5,7 @@
      * Sample - a sample JS module file for our project
      */
 
-    strath.modules.sample = {
+    LNB.modules.sample = {
 
         init: function() {
             console.log('hello from: sample.js');
