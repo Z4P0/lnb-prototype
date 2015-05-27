@@ -6,13 +6,14 @@ module.exports = function(grunt) {
     // project directory layout
     var project = {
         images_dir: 'images/',
+        misc_dir: 'misc/',
         jade_dir: 'jade/',
         sass_dir: 'style/',
         sass_filename: 'style.scss',
         sass_assets: 'style/assets/',
         js_libs_dir: 'js/vendor/',
         js_files: [
-            'js/monte/init.js',
+            'js/lnb/init.js',
         ],
         output: {
             folder:                 '../build/',
@@ -189,6 +190,13 @@ module.exports = function(grunt) {
                     dest: '<%= project.output.folder %>'
                 }]
             },
+            misc: {
+                files : [{
+                    expand: true,
+                    src: ['<%= project.misc_dir %>**'],
+                    dest: '<%= project.output.folder %>'
+                }]
+            },
             js_libs: {
                 files : [{
                     expand: true,
@@ -262,6 +270,7 @@ module.exports = function(grunt) {
             'copy:js_libs',     // copy js/ibs
             'jade',             // build html
             'copy:images',      // copy images
+            'copy:misc',      // copy misc
         ]);
     });
 
