@@ -1,0 +1,26 @@
+.callout {
+    background-color: $red;
+    color: $white;
+    text-align: center;
+    padding-top: $column-gutter;
+    padding-bottom: $column-gutter;
+    span {
+        font-family: $bree;
+        font-size: rem-calc(24);
+        text-transform: uppercase;
+        padding: rem-calc(5) rem-calc(20);
+        border-top: 1px solid $white;
+        border-bottom: 1px solid $white;
+        position: relative;
+        top: rem-calc(5);
+    }
+    a {
+        margin-left: $column-gutter;
+        margin-bottom: 0;
+    }
+
+    @include mq(netbook) {
+        padding-top: $column-gutter*1.5;
+        padding-bottom: $column-gutter*1.5;
+    }
+}

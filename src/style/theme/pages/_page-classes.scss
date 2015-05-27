@@ -1,0 +1,78 @@
+.page-hgroup {
+    background-color: $red;
+    background-image: url(../images/red-agonals.png);
+    background-repeat: repeat-x;
+    background-position: bottom left;
+    padding-top: $column-gutter;
+    padding-bottom: $column-gutter;
+    position: relative;
+    &:after {
+        content: "\0a0";
+        display: block;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-image: url(../images/triangle.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom center;
+        height: rem-calc(36);
+    }
+    img {
+        margin-right: $column-gutter*0.5;
+    }
+    h1 {
+        color: $white;
+        margin: 0;
+    }
+    .pre-title {
+        margin-top: rem-calc(10);
+    }
+
+    &.with-margin-bottom {
+        margin-bottom: $column-gutter;
+    }
+
+    @include mq(netbook) {
+        padding-top: $column-gutter*2;
+        padding-bottom: $column-gutter*2;
+        &.with-margin-bottom {
+            margin-bottom: $column-gutter*2;
+        }
+    }
+}
+
+
+
+
+.page-overview {
+    text-align: center;
+    color: $white;
+    .content {
+        background-color: $red;
+        position: relative;
+    }
+}
+    .pre-title,
+    .overview-title {
+        color: $white;
+        text-transform: uppercase;
+    }
+    .pre-title {
+        display: block;
+    }
+    .overview-title {
+        margin-bottom: $column-gutter*0.5;
+
+    }
+
+
+
+
+
+.page-section {
+    padding-top: rem-calc(40);
+    padding-bottom: rem-calc(40);
+}
+
