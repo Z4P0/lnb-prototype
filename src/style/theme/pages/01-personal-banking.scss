@@ -99,6 +99,8 @@
     }
 
         .find-your-branch {
+            display: block;
+            text-align: center;
             text-transform: uppercase;
             color: #737373;
             transition: color 0.3s ease;
@@ -122,15 +124,22 @@
             position: relative;
             &:before {
                 content: "\0a0";
-                display: inline-block;
+                display: block;
                 position: absolute;
                 background-image: url(../images/small-logo.png);
                 background-repeat: no-repeat;
+                width: 100%;
+                height: 46px;
+                top: -23px;
+                left: 0;
+                background-position: center center;
+
             }
         }
 
 
 .disclaimers {
+    margin-top: $column-gutter*2;
     small {
         display: block;
         + small {
